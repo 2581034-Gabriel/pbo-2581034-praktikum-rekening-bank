@@ -4,6 +4,6 @@ public class BankMini {
 
         System.out.println("============ BANK MINI ============");
         System.out.println("Rekening " + rekening.getNomor() + " a.n. " + rekening.getPemilik());
-        System.out.println("Saldo awal: " + rekening.getSaldo()); // cek sementara, nanti diganti
+        rekening.cetakInfo();
     }
 }
